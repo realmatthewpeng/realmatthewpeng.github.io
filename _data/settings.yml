@@ -8,5 +8,5 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/matt-peng'}
 
 contacts:
-- {name: 'Matthew Peng', institution: 'University of California, Santa Barbara', 
+- {institution: 'University of California, Santa Barbara', 
   department: 'Computer Science', email: 'mpeng(at)ucsb(dot)edu', image: 'assets/img/contact.jpg'}

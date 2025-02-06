@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
+  <div class="col-md-8">
     <h3 class="fw-bold">About Me</h3>
     {% include about.html %}
   </div>
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+  <div class="col-md-4">
+    <img src="{{ site.github.url }}/assets/img/photo.jpg" alt="me" width="100%">
   </div>
 </div>
 
@@ -25,7 +25,7 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
   </div>
 </div>

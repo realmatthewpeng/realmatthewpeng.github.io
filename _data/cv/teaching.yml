@@ -1,0 +1,13 @@
+- title: 'Teaching Assistant'
+  description: 'University of California, Santa Barbara'
+  list:
+    - 'CMPSC 64: Computer Organization and Digital Logic Design WI&#39;25'
+    - 'CMPSC 160: Translation of Programming Languages FA&#39;24'
+
+- title: 'Undergraduate Tutor'
+  description: 'University of California, San Diego'
+  list:
+    - 'CSE 29: Systems Programming & Software Tools SP&#39;24'
+    - 'CSE 130: Programming Languages WI&#39;24'
+    - 'CSE 11: Intro to Programming FA&#39;23'
+    - 'CSE 110: Software Engineering WI&#39;23'  

@@ -14,18 +14,21 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          {% for line in section.description %}
+            <p>{{ line }}</p>
+          {% endfor %}
         {% endfor %}
       </div>
-    </div>
-    <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Academic Experience</h4>
+        <h4>Teaching</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
+        {% for section in site.data.cv.teaching %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p>{{section.description }} </p>
+          {% for item in section.list %}
+            <p>&emsp;- {{ item}}</p>
+          {% endfor %}
         {% endfor %}
       </div>
     </div>
