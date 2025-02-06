@@ -1,4 +1,14 @@
 ---
 ---
 
-@import "main";
+/* main.scss */
+
+/* Set default styles for all links */
+a {
+    color: black; /* Make links black by default */
+    text-decoration: none; /* Remove underline */
+    
+    &:hover {
+      text-decoration: underline; /* Underline on hover for better UX */
+    }
+  }  
